@@ -25,7 +25,7 @@ export class DetallesPage implements OnInit {
   ngOnInit(): void {
     let id = this.router.snapshot.paramMap.get('id');
    
-   // console.log(id);
+   
    this.PeliculasService.detalles_Peliculas(id).subscribe(peli => {
      
       

@@ -11,7 +11,7 @@ export class PeliculaServiceService {
   private url_coger_detalles: string = "https://api.themoviedb.org/3/movie/"
   private url_lista_pelis: string = "https://api.themoviedb.org/3/search/movie?api_key=0a0ed1329a515c5968c710869e2c3ff6&language=en-US&query="
   constructor(private http: HttpClient	) { }
- // https://api.themoviedb.org/3/search/movie?api_key=0a0ed1329a515c5968c710869e2c3ff6&language=en-US&query=The%20Avengers
+ 
   pelicula_popular(){
    const url = `${this.url_Pelicula_popular}${this.apikey}&language=en`;
    return this.http.get<ApiPelicula >(url)

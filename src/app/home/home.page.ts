@@ -34,18 +34,14 @@ export class HomePage {
     if(this.texto == ""){
       this.PeliculasService.pelicula_popular().subscribe(peli => {
      
-    
-    
-        this.peliculas = peli.results;
+         this.peliculas = peli.results;
         
         })
     }else{
     
     this.PeliculasService.lista_peliculas(this.texto).subscribe(peli => {
      
-    
-    
-      this.peliculas = peli.results;
+        this.peliculas = peli.results;
       
       })
     }
