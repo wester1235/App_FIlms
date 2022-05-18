@@ -1,4 +1,4 @@
-# App_FIlmsCancel changes
+# App_FIlms
 
 Como podemos observar en la aplicación, de primeras se nos muestra una interfaz con películas populares. 
 Una vez pulsamos en cualquiera de ellas nos envía a los detalles de la misma película (Descripción, titulo, idioma...). 
