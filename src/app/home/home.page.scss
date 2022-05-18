@@ -25,3 +25,36 @@
 #container a {
   text-decoration: none;
 }
+
+img{
+  padding: 0 15px;
+  padding-bottom: 5px;
+  height: 100px;
+  width: 100px;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+ 
+}
+.span{
+  display: block;
+  float: left;
+}
+.peli_titulo{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+.div_1{
+  background-color: #282928;
+  padding: 0 5px;
+  display: flex;
+}
+.div_2{
+
+  background-color: #3F423C;
+  padding: 0 5px;
+  display: flex;
+  
+}

@@ -1,0 +1,78 @@
+.diviacio{
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+
+}
+
+h1.texto{
+    color: white;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+    
+.datos{
+    color: white;
+    font-size:larger;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align: justify;
+
+}    
+.over{
+    width: 800px;
+    color: white;
+    font-size:larger;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+img{
+        padding: 0 15px;
+        padding-bottom: 5px;
+        height: 390px;
+        width: 545;
+        
+        vertical-align: middle;
+        float:left;
+ }
+
+ @media only screen and (max-width: 600px) {
+    .diviacio{
+        width: auto;
+        height: auto;
+        justify-content: center;
+    
+    }
+    .over{
+        width: auto;
+        padding-left: 30px;
+    }
+    .datos{
+        padding-left: 30px;
+    }
+    .mediafoto{
+        display: flex;
+        padding-top: 15px;
+        justify-content: center;
+
+    } 
+    .title{
+        text-align:center;
+       
+    }
+    img{
+        padding: 0 15px;
+        padding-bottom: 5px;
+        height: auto;
+        width: auto;
+        object-fit: cover;
+        background-size: cover;
+ }
+
+  }

@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button  [routerLink]="['']" >
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-button>
+      {{pelicula_title}}
+  </ion-buttons>
+    
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content>
+
+  <div class="diviacio">
+      <div class="mediafoto"><img src="https://image.tmdb.org/t/p/original/{{pelicula_path}}" onerror="this.src='assets/img/imagen1.jpg'" ></div>
+      <div ><h1 class="title">{{pelicula_title}}</h1></div>
+      <div  class="over">{{pelicula_over}}</div>
+      <div class="datos">Languages: {{pelicula_original_language}}</div>
+      <div class="datos">Release date: {{pelicula_release_date}}</div>
+      <div class="datos">Vote average: {{pelicula_vote_average}}</div>
+  </div>
+</ion-content> 
